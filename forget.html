@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE RUSH</title>
+    <link rel="icon" href="logo-2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="allinone">
+        <div class="main">
+            <div class="one">
+                <a href="index.html"><i class="fa-solid fa-house"></i></a> Forget Password
+                <a href="login.html"><i class="fa-regular fa-circle-left"></i></a>
+            </div>
+           <p> EMAIL ID</p>
+          <input type="email" placeholder="Please enter your email..." name="froget" required>
+          <div class="but">
+          <button type="reset" onclick="clearTimeout()">Reset</button>
+          <button type="submit" onclick="closed()">Forget Password</button>
+        </div>
+        </div>
+    </div>
+    <style>
+        *{
+            margin: 0px;
+            font-family: Verdana, Tahoma, sans-serif;
+        }
+        .allinone{
+            height: 930px;
+            width: 1898.5px;
+            background-color: rgb(0,123,255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            height:80%;
+            width: 700px;
+            border-radius: 10px;
+            background-color: white;
+        }
+        button{
+        background-color: rgb(0, 123, 255);
+        color: white;
+        font-size: 1.3rem;
+        border-radius: 10px;
+        border: none;
+        height: 60px;
+        width: 250px;
+        margin-top: 200px;
+        margin-left: 60px;
+    }
+    input :hover{
+      background-color: grey;
+    }
+    input{
+            width: 600px;
+            height: 50px;
+            margin-left: 50px;
+            font-size: 1.5rem;
+            margin-top: 50px;
+            border-radius: 10px;
+            border: 0.3px solid rgba(128, 128, 128, 0.4);
+            background-color: white;
+            padding-left: 20px;
+    }
+    .one{
+        background-color: red;
+        color: white;
+        font-size: 2rem;
+        height:100px ;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding-top: 25px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        margin-left: 50px;
+    }
+    .but{
+        display: flex;
+    }
+    </style>
+</body>
+</html>
